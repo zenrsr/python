@@ -41,7 +41,7 @@ def main():
 
 main()
 
-# sample input:
+# sample inputs:
 # 4
 # 0 5
 # 1 0
