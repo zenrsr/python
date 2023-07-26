@@ -41,3 +41,9 @@ def main():
 
 main()
 
+# sample input:
+# 4
+# 0 5
+# 1 0
+# 2 10
+# 3 6
