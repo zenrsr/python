@@ -22,3 +22,6 @@ def locate_card(cards, query):
         elif result == 'right':
             lo = mid + 1
     return -1
+cards = list(map(int,input("Enter sorted list : ").split(",")))
+query = int(input())
+print(locate_card((cards,query)))
