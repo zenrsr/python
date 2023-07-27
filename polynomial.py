@@ -5,6 +5,7 @@ def read_polynomial():
         power, coefficient = map(int, input().split())
         polynomial_dict[power] = coefficient
     return polynomial_dict
+
 def get_term(coefficient, power):
     coefficient = abs(coefficient)
     if coefficient == 1 and power != 0:
@@ -16,6 +17,7 @@ def get_term(coefficient, power):
     elif power == 0:
         term = "{}".format(coefficient)
     return term
+
 def get_polynomial_expression_string(polynomial):
     expression = ""
     degree = max(polynomial.keys())
@@ -35,11 +37,13 @@ def get_polynomial_expression_string(polynomial):
     if expression == "":
         expression = "0"
     return expression
+
 def main():
     polynomial = read_polynomial()
     print(get_polynomial_expression_string(polynomial))
 
 main()
+
 
 # sample inputs:
 # 4
