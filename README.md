@@ -41,7 +41,7 @@ git clone https://github.com/zenrsr/python.git
 2. **Navigate to a Category**: Choose a specific problem category you want to work on and navigate to the respective directory:
 
 ```
-cd python/Arrays_and_Strings
+cd python/binary_search.py
 ```
 
 3. **Choose a Problem**: Browse through the problem files in the directory and choose a problem you want to solve.
