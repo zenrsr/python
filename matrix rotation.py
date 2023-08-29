@@ -43,3 +43,5 @@ for i in queries:
     elif i[0] == "Q":
         values = list(map(int, i[1:].split()))
         print(new_matrix[values[0]][values[1]])
+
+    #done
